@@ -29,11 +29,46 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        const counters = document.querySelectorAll(".counter");
+        const duration = 2000; // Total time for the animation in milliseconds (2 seconds)
+
+        counters.forEach(counter => {
+            const target = parseInt(counter.getAttribute("data-target")); // Final number
+            const increment = target / (duration / 20); // Calculate increment value per frame (50fps)
+
+            let current = 0;
+
+            const updateCounter = () => {
+                current += increment; // Increment the current value
+                if (current < target) {
+                    counter.innerText = Math.ceil(current); // Display rounded-up value
+                    setTimeout(updateCounter, 20); // Repeat every 20ms (50fps)
+                } else {
+                    counter.innerText = (target+"+"); // Ensure it stops at the target
+                }
+            };
+
+            updateCounter();
+        });
+    });
+    </script>
 
     <style>
         .gradient-box {
             background: linear-gradient(to right, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.3));
         }
+        .counter {
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.counter-1 {
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 2s ease-in-out;
+}
     </style>
 </head>
 
@@ -166,7 +201,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="img/about-1.jpg">
+                        <img class="img-fluid w-100" src="img/about.png">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -190,6 +225,26 @@
         </div>
     </div>
     <!-- About End -->
+    <div class="d-flex justify-content-between row">
+        <div class="col-md-3 col-6 text-center">
+            <h1 class="text-secondary counter" data-target="500">0</h1>
+            <p class="h5">Farmers</p>
+        </div>
+        <div class="col-md-3 col-6 text-center">
+            <h1 class="text-secondary counter" data-target="20">0</h1>
+            <p class="h5">Countries & territories served</p>
+        </div>
+        <div class="col-md-3 col-6 text-center">
+            <h1 class="text-secondary counter" data-target="40">0</h1>
+            <p class="h5">Trucks</p>
+        </div>
+        <div class="col-md-3 col-6 text-sm-center text-start ">
+            <h1 class="text-secondary counter" data-target="15">0</h1>
+            <p class="h5">Type of Agricultural products</p>
+        </div>
+    </div>
+    
+    
 
     <div class="container-fluid bg-light bg-icon py-6">
         <div class="container">
