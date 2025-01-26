@@ -382,3 +382,21 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+.phone-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .phone-icon {
+    margin-right: 10px; /* Spacing between icon and numbers */
+  }
+
+  .phone-numbers {
+    display: flex;
+    flex-direction: column; /* Stack phone numbers vertically */
+  }
+  .footer-logo {
+    max-width: 250px; /* Adjust size as needed */
+    height: 102px;     /* Maintain aspect ratio */
+    display: block;   /* Ensure proper alignment in flex or block layouts */
+  }
