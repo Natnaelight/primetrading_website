@@ -404,55 +404,86 @@
     <!-- end of priduct -->
 
     <!-- Trusted by -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Trusted By</h2>
+        
+        <div id="partnerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="img/merk.webp" class="partner-logo d-block mx-auto bg-white" alt="Partner 1">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/natural.webp" class="partner-logo d-block mx-auto" alt="Partner 2">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/saturn.jpg" class="partner-logo d-block mx-auto" alt="Partner 3">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/paradox.png" class="partner-logo d-block mx-auto" alt="Partner 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="img/natural.webp" class="partner-logo d-block mx-auto bg-white" alt="Partner 1">
+                        </div>
+                        <div class="col-md-3">
+                            <img  src="img/merk.webp"class="partner-logo d-block mx-auto" alt="Partner 2">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/paradox.png" class="partner-logo d-block mx-auto" alt="Partner 3">
+                        </div>
+                        <div class="col-md-3">
+                            <img  src="img/saturn.jpg" class="partner-logo d-block mx-auto" alt="Partner 4">
+                        </div>
     
-<section class="container my-5">
-    <h2 class="text-center mb-4">Trusted By</h2>
-    
-    <div id="partnerCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 1">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 2">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 3">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 4">
+                        
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 5">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 6">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 7">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/placeholder.svg?height=100&width=200" class="partner-logo d-block" alt="Partner 8">
-                    </div>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#partnerCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#partnerCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#partnerCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#partnerCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
+    </section>
+    <style>
+        .gradient-box {
+            background: linear-gradient(to right, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.3));
+        }
+        .counter {
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    }
+    .counter-1 {
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 2s ease-in-out;
+    }
+    .partner-logo {
+            height: 100px; /* Set a consistent height */
+            object-fit: contain; /* Ensure the logos scale properly without distortion */
+        }
+    
+        @media (max-width: 768px) {
+            .partner-logo {
+                height: 80px; /* Adjust height for smaller screens */
+            }
+        }
+    
+    </style>
+    
+    
+    
+    
 
 
 
