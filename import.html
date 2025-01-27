@@ -30,37 +30,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <style>
-        .gallery-item {
-            overflow: hidden;
-            border-radius: 10px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .gallery-item img {
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .gallery-item img:hover {
-            transform: scale(1.1);
-        }
-        .image-container {
-    display: flex; /* Center align images */
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-container img {
-    max-width: 100%; /* Ensures images fit within the column */
-    height: auto; /* Maintains the natural aspect ratio */
-  }
-    </style>
+    <link rel="stylesheet" href="css/images.css">
 </head>
 
 <body>
@@ -158,41 +128,35 @@
              <!-- Fertilizers Section -->
  <section class="mb-5">
     <h2 class="text-center mb-4">Fertilizers</h2>
-    <div class="row g-4">
-      <!-- Replace these images with your actual product images -->
-      <div class="col-md-4">
-        <img src="img/0fd3416c.jpeg/Oilseeds1.jpg"  class="img-fluid rounded shadow" alt="Fertilizer">
-      </div>
-      <div class="col-md-4">
-        <img src="img/0fd3416c.jpeg/Oilseeds1.jpg"  class="img-fluid rounded shadow" alt="Fertilizer">
-      </div>
-      <div class="col-md-4">
-        <img src="img/0fd3416c.jpeg/Oilseeds1.jpg"  class="img-fluid rounded shadow" alt="Fertilizer">
-      </div>
+    <div class="flex row g-4 gap-3 justify-content-center">
+        <!-- Dynamic Gallery Items -->
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/IMG-20241109-WA0015.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/IMG-20241109-WA0015.jpg">
+         </div>
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/IMG-20241109-WA0016.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/IMG-20241109-WA0016.jpg">
+         </div>
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/IMG-20241109-WA0018-226x300.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/IMG-20241109-WA0018-226x300.jpg">
+         </div>
     </div>
   </section>
 
   <!-- Animal Feed Section -->
   <section class="mb-5">
     <h2 class="text-center mb-4">Animal Feed</h2>
-    
-    <div class="row g-4">
-        <div class="col-md-4">
-          <div class="image-container">
-            <img src="img/Animal_Feed_1.png" class="rounded shadow" alt="Animal Feed">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="image-container">
-            <img src="img/Animal_Feed_1.png" class="rounded shadow" alt="Animal Feed">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="image-container">
-            <img src="img/Animal_Feed_1.png" class="rounded shadow" alt="Animal Feed">
-          </div>
-        </div>
-      </div>
+    <div class="flex row g-4 gap-3 justify-content-center">
+        <!-- Dynamic Gallery Items -->
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/animal.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/animal.jpg">
+         </div>
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/Animal_Feed_1.png" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/Animal_Feed_1.png">
+         </div>
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/animals.png" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/animals.png">
+         </div>
+    </div>
       
       
   </section>
@@ -200,17 +164,19 @@
   <!-- Agricultural Chemicals Section -->
   <section class="mb-5">
     <h2 class="text-center mb-4">Agricultural Chemicals</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <img src="img/chemicals.jpg" class="img-fluid rounded shadow" alt="Agricultural Chemical">
-      </div>
-      <div class="col-md-4">
-        <img src="img/chemicals.jpg" class="img-fluid rounded shadow" alt="Agricultural Chemical">
-      </div>
-      <div class="col-md-4">
-        <img src="img/chemicals.jpg" class="img-fluid rounded shadow" alt="Agricultural Chemical">
-      </div>
+    <div class="flex row g-4 gap-3 justify-content-center">
+        <!-- Dynamic Gallery Items -->
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/chemicals.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/chemicals.jpg">
+         </div>
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/IMG-20241109-WA0013.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/IMG-20241109-WA0013.jpg">
+         </div>
+         <div class="galary-img img-fluid">
+            <img class="img-fluid gallary-img-item" src="img/import/IMG-20241109-WA0014.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="img/import/IMG-20241109-WA0014.jpg">
+         </div>
     </div>
+    
   </section>
 </div>
   <!-- Dynamic Gallery Items -->
@@ -236,7 +202,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex justify-content-center align-items-center">
-                    <img src="" alt="Full Image" id="modalImage" class="img-fluid">
+                    <img src="" alt="Full Image" id="modalImage" class="image-full-screen img-fluid">
                 </div>
             </div>
         </div>
