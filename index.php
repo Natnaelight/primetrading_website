@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -113,22 +115,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                    <a href="import.html" class="nav-item nav-link">Import</a>
-                    <a href="export.html" class="nav-item nav-link">Export</a>
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="blog.html" class="nav-item nav-link">Blog</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="gallery.php" class="nav-item nav-link">Gallery</a>
+                    <a href="import.php" class="nav-item nav-link">Import</a>
+                    <a href="export.php" class="nav-item nav-link">Export</a>
+                    <a href="about.php" class="nav-item nav-link">About Us</a>
+                    <a href="blog.php" class="nav-item nav-link">Blog</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     <a class="nav-item nav-link"><div class="gtranslate_wrapper"></div></a>
 <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"languages":["en","nl","zh-CN","fr","ar"],"wrapper_selector":".gtranslate_wrapper","flag_size":24}</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Our Features</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="feature.php" class="dropdown-item">Our Features</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+                            <a href="404.php" class="dropdown-item">404 Page</a>
                         </div>
                     </div> -->
                 </div>
@@ -161,7 +163,7 @@
                                 <div class="col-lg-7">
                                     <h4 class="text-secondary">From Field to Market</h4>
                                     <h6 class="display-3 mb-5 animated slideInDown">Importing Growth, Exporting Beauty</h6>
-                                    <a href="contact.html" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact Us Now</a>
+                                    <a href="contact.php" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact Us Now</a>
                                     <!-- <a href="" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> -->
                                 </div>
                             </div>
@@ -176,7 +178,7 @@
                                 <div class="col-lg-7">
                                     <h4 class="text-secondary">Flourish & Export</h4>
                                     <h6 class="display-3 mb-5 animated slideInDown">Importing Growth, Exporting Beauty</h6>
-                                    <a href="contact.html" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact us Now</a>
+                                    <a href="contact.php" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact us Now</a>
                                     <!-- <a href="" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> -->
                                 </div>
                             </div>
@@ -191,7 +193,7 @@
                                 <div class="col-lg-7">
                                     <h4 class="text-secondary">Flourish & Export</h4>
                                     <h6 class="display-3 mb-5 animated slideInDown">Importing Growth, Exporting Beauty</h6>
-                                    <a href="contact.html" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact us Now</a>
+                                    <a href="contact.php" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact us Now</a>
                                     <!-- <a href="" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> -->
                                 </div>
                             </div>
@@ -206,7 +208,7 @@
                                 <div class="col-lg-7">
                                     <h4 class="text-secondary">Flourish & Export</h4>
                                     <h6 class="display-3 mb-5 animated slideInDown">Importing Growth, Exporting Beauty</h6>
-                                    <a href="contact.html" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact us Now</a>
+                                    <a href="contact.php" class="w-50 btn btn-primary rounded-pill py-sm-3 px-sm-5">Contact us Now</a>
                                     <!-- <a href="" class="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> -->
                                 </div>
                             </div>
@@ -254,7 +256,7 @@
                             <p><i class="fa fa-check text-primary me-2"></i>Flower Farming</p>
                         </div>
                     </div>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="about.html">Read More</a>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="about.php">Read More</a>
                 </div>
             </div>
         </div>
@@ -295,7 +297,7 @@
                         </div>
                         <h4 class="mb-3">High-Quality Exports</h4>
                         <p class="mb-4">We export a wide variety of fresh fruits, cereals, and flowers, ensuring the highest quality and timely delivery to international markets.</p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="about.html">Read More</a>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="about.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -305,7 +307,7 @@
                         </div>
                         <h4 class="mb-3">Premium Imported Products</h4>
                         <p class="mb-4">Our imports include top-tier fertilizers, animal feed, and agricultural products to support farming operations and increase productivity.</p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="about.html">Read More</a>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="about.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -315,7 +317,7 @@
                         </div>
                         <h4 class="mb-3">Sustainable Practices</h4>
                         <p class="mb-4">We prioritize sustainability by sourcing environmentally-friendly agricultural products and practicing ethical import and export processes.</p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="about.html">Read More</a>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="about.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -530,7 +532,7 @@
                     <p class="text-white mb-0">Step into our world and explore the visual journey of our work. Our gallery showcases the projects, milestones, and experiences that define who we are. From the products we offer to the people behind our firm, take a closer look at the passion and dedication that goes into everything we do.</p>
                 </div>
                 <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="gallery.html">Visit Now</a>
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="gallery.php">Visit Now</a>
                 </div>
             </div>
         </div>
@@ -609,65 +611,7 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <img src="img/logo.png" alt="Logo" class="footer-logo" />
-
-                    <p>Prime Import and Export stands as a premier player in the global trade industry, renowned for its expertise in the export of fresh, premium-quality fruits and vegetables and the import of superior-grade fertilizers and agricultural chemicals.
-                    </p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>Bedrya City Mall, 8th Floor, Office. No. 701, Addis Ababa, Ethiopia</p>
-                    <p class="phone-container">
-                        <i class="fa fa-phone-alt phone-icon"></i>
-                        <span class="phone-numbers">
-                          <span>+251978784600</span>
-                          <span>+251901031314</span>
-                        </span>
-                      </p>
-                    <p><i class="fa fa-envelope me-3"></i>info@primetradinget.com</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">primetradinget.com</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://zohar.et">Zohar Tech</a>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </div>
+   <?php include 'footer.php' ?>
     <!-- Footer End -->
 
 

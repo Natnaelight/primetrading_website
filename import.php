@@ -64,7 +64,7 @@
     </div>
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0 col-8 col-sm-4">
+            <a href="index.php" class="navbar-brand ms-4 ms-lg-0 col-8 col-sm-4">
                 <!-- <h1 class="fw-bold text-primary m-0">F<span class="text-secondary">oo</span>dy</h1> -->
                 <img src="img/logo.png" class="w-50" alt="">
             </a>
@@ -73,13 +73,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link" style="margin-right: 15px;">Home</a>
-                    <a href="gallery.html" class="nav-item nav-link " style="margin-right: 15px;">Gallery</a>
-                    <a href="import.html" class="nav-item nav-link active" style="margin-right: 15px;">Import</a>
-                    <a href="export.html" class="nav-item nav-link" style="margin-right: 15px;">Export</a>
-                    <a href="about.html" class="nav-item nav-link" style="margin-right: 15px;">About Us</a>
-                    <a href="blog.html" class="nav-item nav-link" style="margin-right: 15px;">Blog</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="index.php" class="nav-item nav-link" style="margin-right: 15px;">Home</a>
+                    <a href="gallery.php" class="nav-item nav-link " style="margin-right: 15px;">Gallery</a>
+                    <a href="import.php" class="nav-item nav-link active" style="margin-right: 15px;">Import</a>
+                    <a href="export.php" class="nav-item nav-link" style="margin-right: 15px;">Export</a>
+                    <a href="about.php" class="nav-item nav-link" style="margin-right: 15px;">About Us</a>
+                    <a href="blog.php" class="nav-item nav-link" style="margin-right: 15px;">Blog</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                     <a class="nav-item nav-link"><div class="gtranslate_wrapper"></div></a>
 <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"languages":["en","nl","zh-CN","fr","ar"],"wrapper_selector":".gtranslate_wrapper","flag_size":24}</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
@@ -581,7 +581,7 @@
                     &copy; <a href="#">primetradinget.com</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
                     Designed By <a href="https://zohar.et">Zohar Tech</a>
                 </div>
             </div>
